@@ -2,11 +2,6 @@
 project for test
 Add form the brower。
 
-修改分支2中的文件。
-
-20190305 22:16
-add for test
-
 20190311
 上传ballgame的python程序，学习git的功能。
 开始没有配置igore文件，uenv和__pycache__两个目录也上传了，如何删除托管代码中的目录？
@@ -25,4 +20,10 @@ $ git push -u origin master               # 将本次更改更新到gith
 注:本地项目中的target文件夹不收操作影响,删除的只是远程仓库中的target, 可放心删除
 
 每次增加文件或删除文件，都要commit 然后直接 git push -u origin master，就可以同步到github上了
+
+删除时还遇到了一个问题，本地的分支指向的不是master，导致按照步骤操作，但是到git push那一步时总是失败。之后使用git checkout master切换到master分支，然后重新操作，最后就成功了。
 --------------------- 
+
+利用这里先学习下git的基本功能。
+可以配合pycharm工具，利用红球和白球的小游戏练习下代码git版本管理的使用。
+等熟悉之后再学习下分支的管理。

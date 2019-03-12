@@ -60,24 +60,29 @@ def update_white_ball(white_ball):
 
 
 def update_red_balls(red_balls):
-    '''更新子弹位置，删除子弹'''
-    red_balls.update()     # 子弹组每个成员执行self.update()操作
+    '''更新红球位置，'''
+    red_balls.update()     # 红球组每个成员执行self.update()操作
     for red_ball in red_balls.sprites():
         pass
+
     #    if red_ball.rect.bottom <= 0:  # 子弹出界 删除
     #        bullets.remove(bullet)
 
 def add_red_ball(ai_settings,screen,white_ball,red_balls):
-    # 创建一个子弹对象 加入到子弹组
+    # 创建一个红球对象 加入到红球组
     #print("add red ball")
     #print(len(red_balls))
-    if len(red_balls) < ai_settings.red_balls_allowed:  # 子弹少于允许值时再生成
+    if len(red_balls) < ai_settings.red_balls_allowed:  # 红球少于允许值时再生成
         #print(ai_settings.red_balls_allowed)
         new_red_ball = Red_ball(ai_settings, screen, white_ball)
         #print("add to group")
         red_balls.add(new_red_ball)
 
 def collision_red_ball(red_ball_1,red_ball_2):
+    """实现两球的碰撞检测"""
+
+    #TODO：1、实现红球碰撞功能；2、改写白球代码，实现红球与白球的碰撞
+
     tangalpha = (red_ball_2.Rect.centery - red_ball_1.Rect.centery)/(red_ball_2.Rect.centerx - red_ball_1.Rect.centerx)
     alpha = math.atan(tangalpha)
     v1n = red_ball_1.velx * math.cos(alpha) + red_ball_1.vely * math.sin(alpha)

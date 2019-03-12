@@ -82,6 +82,7 @@ def collision_red_ball(red_ball_1,red_ball_2):
     """实现两球的碰撞检测"""
 
     #TODO：1、实现红球碰撞功能；2、改写白球代码，实现红球与白球的碰撞
+    #TODO: 检查此碰撞计算是否正确。
 
     tangalpha = (red_ball_2.Rect.centery - red_ball_1.Rect.centery)/(red_ball_2.Rect.centerx - red_ball_1.Rect.centerx)
     alpha = math.atan(tangalpha)

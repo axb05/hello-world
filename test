@@ -9,8 +9,14 @@ git add:
 from cygwin git
 del one line and add two lines
 modify from XP by git 
+Bjj
 20190309001
 add form aml
 20190315
 
+baa
+20190315
+仓库中增加了python代码ballgame项目。
+git为了版本随时能够回退到旧版本，存储了大量的旧版本数据。
+如何能够删除旧版本的数据？
 

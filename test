@@ -1,4 +1,4 @@
-file create form boower
+﻿file create form boower
 20190305
 create branch form master
 test branch merge
@@ -28,4 +28,11 @@ git为了版本随时能够回退到旧版本，存储了大量的旧版本数�
 在aml中增加部分内容。
 两处用户同时修改，会造成冲突。
 如何解决冲突？
+
+20190320
+在WinXP中安装了TortiseGit工具。
+可以利用图形界面完成版本管理。 
+之前使用过TortiseSVN。
+git比svn要功能更强大一些，理解概念会更复杂，但是一旦掌握使用方法之后，应该会感到更方便。
+
 

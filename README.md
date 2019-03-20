@@ -1,4 +1,4 @@
-# hello-world
+﻿# hello-world
 project for test
 Add form the brower。
 
@@ -27,3 +27,12 @@ $ git push -u origin master               # 将本次更改更新到gith
 利用这里先学习下git的基本功能。
 可以配合pycharm工具，利用红球和白球的小游戏练习下代码git版本管理的使用。
 等熟悉之后再学习下分支的管理。
+
+20190320
+学习了下git的基本概念和基本命令的使用方法。 
+但是感觉还是缺乏深入的理解。
+对很多功能感觉还是一知半解。
+在WinXP上安装了TortoiseGit工具。此工具与之前使用的TortoiseSVN工具是一个公司的作品。在win平台下，可以通过菜单方式实现版本的管理。
+比命令行方式更便于上手。
+通过此工具的学习加深下对Git的概念的理解。
+尤其是版本合并、blame、版本回退、分支管理等功能。
